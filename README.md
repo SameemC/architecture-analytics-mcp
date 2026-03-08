@@ -1,0 +1,1 @@
+# architecture-analytics-mcp
