@@ -3,8 +3,8 @@
 A suite of three open-source MCP (Model Context Protocol) tools that make your
 firm's project database conversational through Claude.
 
-Architecture firms accumulate years of project data — comparable fees, phase
-durations, staffing patterns, burn rates — but that data sits locked in SQL
+Architecture firms accumulate years of project data (comparable fees, phase
+durations, staffing patterns, burn rates) but that data sits locked in SQL
 tables that project managers don't query. These tools close that gap. Ask
 questions in plain language, get answers grounded in your own historical record.
 
@@ -17,7 +17,7 @@ The suite follows the natural arc of a project:
 | Tool | When to use it | What it does |
 |---|---|---|
 | [`comparable_projects_mcp`](./comparable_projects_mcp/README.md) | **Pursuit / proposal** | Ranked similarity search across past projects. Given a typology, sqft, and location, returns your firm's closest historical matches scored across multiple dimensions. |
-| [`phase_fee_estimator_mcp`](./phase_fee_estimator_mcp/README.md) | **Fee proposal** | Statistically grounded fee ranges (P25/P75/P90) derived from your own historical actuals, with cited comps and an analyst narrative. |
+| [`phase_fee_estimator_mcp`](./phase_fee_estimator_mcp/README.md) | **Fee proposal** | Statistically grounded fee ranges (25th, 75th, 90th percentile) derived from your own historical actuals, with cited comps and an analyst narrative. |
 | [`project_risk_mcp`](./project_risk_mcp/README.md) | **Project delivery** | Benchmarks a live project's current fee burn rate against completed projects of similar typology and size. Returns a risk classification and PM-facing action guidance. |
 
 Start with `comparable_projects_mcp`. Run `validate_connection` first to confirm
@@ -126,7 +126,7 @@ drawing conclusions.
 
 **Benchmarks are against your own history, not the industry.** A firm with a
 narrow project history will get narrow benchmarks. The tools report pool size
-and will tell you when filters had to be relaxed — pay attention to those notes.
+and will tell you when filters had to be relaxed  *pay attention to those notes*.
 
 **The LLM interprets; it does not decide.** Analyst narratives are grounded in
 your data but should be treated as a starting point for a PM conversation, not
