@@ -271,7 +271,7 @@ redistributed to the remaining dimensions.
 |---|---|---|
 | Tool 1: `find_comparable_projects` | ✅ This tool | Ranked similarity search across past projects |
 | Tool 2: `estimate_phase_fee` | ✅ Built | Single-phase and total-project fee estimation from historical actuals |
-| Tool 3: `diagnose_project_risk` | Planned | Benchmark a live project's fee burn against historical norms |
+| Tool 3: `diagnose_project_risk` | ✅ Built | Benchmark a live project's fee burn against historical norms |
 
 ---
 
