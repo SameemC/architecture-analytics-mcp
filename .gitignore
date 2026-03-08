@@ -1,0 +1,12 @@
+# Local env with credentials — never commit
+.env
+*.env
+!.env.template
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+*.egg-info/
