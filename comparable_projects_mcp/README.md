@@ -3,7 +3,7 @@
 **Tool 1 of the architecture-analytics-mcp suite.**
 
 A Model Context Protocol (MCP) server that finds the most similar past projects
-from your firm's database for a proposed new project — ranked by a composite
+from your firm's database for a proposed new project, ranked by a composite
 similarity score across square footage, construction cost, year, and location.
 
 ---
@@ -16,7 +16,7 @@ the longest. It lives in someone's head, not in a query.
 
 This tool makes that question answerable from your database in seconds. Give it
 a typology, a square footage, and a rough cost estimate and it returns a ranked
-list of your most comparable past projects — with their actual fees attached —
+list of your most comparable past projects (with their actual fees attached)
 so a PM has named precedents and a fee anchor before the first proposal meeting.
 
 ---
