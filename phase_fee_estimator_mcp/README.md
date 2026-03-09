@@ -3,19 +3,19 @@
 Tool 2 of the architecture-analytics-mcp suite.
 
 A Model Context Protocol (MCP) server that gives architects and project managers
-a statistically grounded fee estimate for any project phase — or the total project
-fee across all phases — drawn directly from their firm's historical project data.
+a statistically grounded fee estimate for any project phase, or the total project
+fee across all phases, drawn directly from their firm's historical project data.
 
 ---
 
 ## What problem this solves
 
 Every architecture firm faces the same proposal moment: a project manager sits
-down to write a fee and has to answer — is this reasonable? Too low? Leaving
+down to write a fee and has to answer: is this reasonable? Too low? Leaving
 money on the table?
 
 For a single phase that answer has always come from memory or manually digging
-through old proposals. For a full project fee it's even harder — firms are
+through old proposals. For a full project fee it's even harder: firms are
 typically summing phase guesses without any statistical grounding or 
 project comparables to anchor the total.
 
